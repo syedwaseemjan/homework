@@ -69,6 +69,7 @@ class NERoutingTable(RoutingTableInterface):
 class NetworkElement(NetworkElementInterface):
     def __init__(self, addr):
         self.ne = NetworkElementTest(addr)
+        #self.ne = jnettool.tools.elements.NetworkElement(addr)
         self._routing_table = None
 
     @property
