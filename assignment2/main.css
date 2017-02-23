@@ -1,0 +1,26 @@
+.logo{
+	width: 100px;
+}
+.sel-tab{
+	margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+.table a{
+	color: #4f9fcf;
+}
+.nav li div{
+	border-left: 4px solid transparent;
+}
+.nav li div:hover, .nav li.active div{
+	border-left: 4px solid #4f9fcf;
+}
+.nav a{
+	color: gray;
+	margin-left:20px;
+}
+.nav a:hover, .nav li.active a{
+	font-weight: bold
+}
+.ml-37{
+	margin-left: 37px;
+}

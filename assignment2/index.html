@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<title></title>
+
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 
@@ -13,8 +20,110 @@
 
 		<div class="row">
 
-			<nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar"></nav>
-			<div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3"></div>
+			<div class="col-md-3">
+				<div class="ml-37 mr-5 my-4"><img src="logo.png" class="logo"/></div>
+			</div>
+
+			<div class="col-md-9 sel">
+				<div class="sel-tab"><h2 class="ml-2 mr-5 my-4"><small class="text-muted">Users</small></h2></div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+
+			<div class="col-md-3">
+				<h6 class="text-muted font-weight-normal mb-5 ml-37">
+			      Dashboard
+			    </h6>
+			    <h6 class="text-muted font-weight-normal mb-3 ml-37">
+			      DATA EXPLORER
+			    </h6>
+
+			    <nav class="sidebar">
+					<ul class="nav nav-pills flex-column">
+			            <li class="nav-item active">
+			              <div class="bar"><a class="nav-link" href="#">Users</a></div>
+			            </li>
+			            <li class="nav-item">
+			              <div class="bar"><a class="nav-link" href="#">Shipments</a></div>
+			            </li>
+			            <li class="nav-item">
+			              <div class="bar"><a class="nav-link" href="#">Pickups</a></div>
+			            </li>
+			          </ul>
+				</nav>
+			</div>
+
+			
+			<div class="col-md-9">
+					
+					<div class="col-md-4 mb-3 pl-0">
+						<div class="input-group">
+					      <span class="input-group-btn">
+					        <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
+					      </span>
+					      <input type="text" class="form-control" placeholder="Search users">
+					    </div>
+					</div>
+
+					<table class="table table-hover text-muted">
+						<thead>
+							<tr>
+								<th class="border-top-0 font-weight-normal "><input type="checkbox"></th>
+								<th class="border-top-0 font-weight-normal ">ID</th>
+								<th class="border-top-0 font-weight-normal ">Name</th>
+								<th class="border-top-0 font-weight-normal ">Sender Name</th>
+								<th class="border-top-0 font-weight-normal ">E-Mail Address</th>
+								<th class="border-top-0 font-weight-normal ">Type</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td><a href="#">#11111111</a></td>
+								<td>Alexander Leichter</td>
+								<td>Alexander Leichter</td>
+								<td>alexander@getbyrd.com</td>
+								<td>Business Customer</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td><a href="#">#11111111</a></td>
+								<td>Alexander Leichter</td>
+								<td>Alexander Leichter</td>
+								<td>alexander@getbyrd.com</td>
+								<td>Business Customer</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td><a href="#">#11111111</a></td>
+								<td>Alexander Leichter</td>
+								<td>Alexander Leichter</td>
+								<td>alexander@getbyrd.com</td>
+								<td>Business Customer</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td><a href="#">#11111111</a></td>
+								<td>Alexander Leichter</td>
+								<td>Alexander Leichter</td>
+								<td>alexander@getbyrd.com</td>
+								<td>Business Customer</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td><a href="#">#11111111</a></td>
+								<td>Alexander Leichter</td>
+								<td>Alexander Leichter</td>
+								<td>alexander@getbyrd.com</td>
+								<td>Business Customer</td>
+							</tr>
+						</tbody>
+					</table>
+
+			</div>
 			
 		</div>
 		
