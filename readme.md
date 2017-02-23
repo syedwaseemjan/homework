@@ -1,4 +1,5 @@
-## Adapter has been added with all the required Interfaces in pythonic way. Pythonic way of "setup and teardown" is achieved through the use of Context Manager. 
+## Python Adapter / Bootstrap UI
+Adapter has been added with all the required Interfaces in pythonic way. Pythonic way of "setup and teardown" is achieved through the use of Context Manager. 
 A simple testcase has also been added.
 
 ## References:
